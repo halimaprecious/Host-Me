@@ -41,7 +41,9 @@ button:hover {
 .introtext {
   font-family: "Josefin Sans";
 }
-
+.test{
+    background-image: url("images/mountains.png");
+}
 a:link,
 a:visited {
   text-decoration: none;
