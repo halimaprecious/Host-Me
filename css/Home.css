@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.hostMe{
+    font-family: Rancho;
+    font-size: 36px;
+    color: #DD0382;
+}
+a {
+    text-decoration: none;
+}
