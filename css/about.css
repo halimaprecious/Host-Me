@@ -4,29 +4,16 @@
     --border:.2rem solid #FFB6C1;
 }
 
-.logo{
-    
-    display: inline-block;
-}
 .log{
     width: 100px;
     height: 100px;
+    position: fixed;
 }
 .image{
     width: 1000px;
-    height: 400px;
-    margin-left: 30%;
-    margin right: 40%;
+    height: 500px;
+    margin-left: 40px;
+    margin-right: 50px;
+    display: flexbox;
 }
 
-
-}
-
-.about-section{
-    /* background-color: #E75480; */
-    margin-top: 50px;
-    margin-left: 50%;
-    margin-bottom: 50px;
-    text-align: center;  
-    color: azure;
-}
