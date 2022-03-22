@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head{
+    background-color: #B21E89;
+    height: 15vh;
+    position: fixed;
+    background-attachment: scroll;
+    z-index: 2;
+
+}
+.head img{
+    border-radius: 25px;
+}
+.head a{
+    color: white;
+    font-size: 25px;
+}
+.houses{
+    height: 80vh;
+    padding-top: 100px;
+    z-index: -100;
+}
+.more{
+    margin-top: 460px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
