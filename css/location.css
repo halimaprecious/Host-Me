@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -11,8 +12,13 @@
     /* z-index: 2; */
 
 }
-.head img{
-    border-radius: 25px;
+
+.host{
+    font-family: Rancho;
+    font-size: 36px;
+    color: white;
+    justify-self: center;
+    line-height: 0.8rem;
 }
 .head a{
     color: white;
@@ -22,6 +28,11 @@
     height: auto;
     padding-top: 100px;
     /* z-index: -100; */
+}
+#guide{
+    margin-left: 300px; 
+    /* color: white; */
+     display: none;
 }
 .more{
     /* margin-top: 460px; */
@@ -33,6 +44,17 @@
     width: 800px;
     margin-left: 180px;
 }
+#guide1{
+    color: blue;
+}
+#guide1:hover{
+    text-decoration: underline;
+    text-transform: calc(3%, 3%);
+}
+#back{
+    margin-top: 30px;
+    margin-left: 240px;
+}
 input, select{
     width: 300px;
     padding: 5px;
@@ -43,6 +65,30 @@ input, select{
     background-color: #B21E89;
     color: black;
 }
+#proceed, #back{
+    padding: 9px;
+    width: auto;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: #B21E89;
+}
+#back:hover, #proceed:hover{
+    color: white;
+    background-color: #B21E89;
+}
+#summary{
+    margin-left: 150px;
+}
+#sumtable{
+    display: none;
+}
+
+#footer{
+    background-color: black;
+    height: 60px;
+    padding-top: 25px;
+}
+
 
 
 

@@ -15,7 +15,7 @@
       <div class="container-fluid">
         <div class="row head fixed-top">
           <div class="col-md-12 d-flex justify-content-around pt-4">
-            <img src="./images/logo.jpeg" alt="logo" height="50px" width="70px">
+            <p class="pt-3 host">hostMe</p>
             <a class="pt-2" href="#book">Book Now</a>
             <a class="pt-2" href="landing.html">Home</a>
             <a class="pt-2" href="contacts.html">Contact Us</a>
@@ -55,7 +55,7 @@
           </div>
         </div>
 
-        <div class="row pt-5 mb-5" id="more">
+        <div class="row pt-5 mb-3" id="more">
           <div class="col-sm-12 text-white more text-center">
             <h4 class="pt-2 text-center text-white"><a href=""><i class="fa-solid fa-arrow-right-long text-white"></i> &nbsp;&nbsp; <strong class="text-white">Check for more locations Here</strong></a></h4>
           </div>
@@ -66,20 +66,38 @@
 
 
 <!-- book  starts-->
-     .<div class="container text-center mt-3 mb-4" id="book">
+     .<div class="container" id="book">
        <h4 class="mb-2 text-center pt-5">Book your Preffered Hostel Here.</h4>
-       <h5 class="pb-3 text-center pt-3">Check the booking Guidelines <a href="">Here</a> first!</h5>
-       <div class="row">
+       <h5 class="pb-3 text-center pt-3">Check the booking Guidelines <span id="guide1">Here</span> first!</h5>
+
+       <div id="guide" class="pb-5">
+        <p>Currently we do not have lodges but our rooms can accomodate you for 
+          a minimum period of 1 month.
+        </p>
+        <p>Before making any payment, go through the following step by step.</p>
+        <ol>
+          <li>Identify the room of your choice from the <a href="gallery.html">gallery section</a> </li>
+          <li>Enter your correct Details</li>
+          <li>For the first month you will be required to pay the 
+            the Deposit and the rent for that month.
+          </li>
+          <li>Select your location well  and your preferred room.</li>
+          <li>Lastly print your details and come with it during the reporting date.</li>
+          <li> For further enquiries contact our Head Office on +254700003332</li>
+        </ol>
+        <button id="back">Back to booking</button>
+       </div>
+       <div class="row text-center">
          <div class="col-sm-12">
-           <form action="">
+           <form action="" id="myForm">
             <div class="row pb-3">
               <div class="col-md-6">
                 <label for="name" class="pb-2">Your Full Name</label><br>
-                <input type="text" name="" id="name" placeholder="Your name...">
+                <input type="text" name="" id="name" placeholder="Your name..." value="">
               </div>
               <div class="col-md-6">
                 <label for="idno/psspt" class="pb-2">Your ID / PASSPORT number</label><br>
-                <input type="text" name="" id="idno" placeholder="Your ID / PSSPT...">
+                <input type="text" name="" id="idno" placeholder="Your ID / PSSPT..." value="">
               </div>
             </div> 
 
@@ -98,24 +116,24 @@
               <div class="col-sm-6">
                 <label for="loc" class="pb-2">Choose your Location from the available options</label><br>
              <select name="" id="location">
-               <option value="room">Select Your Location</option>
-               <option value="">Embakasi Courts</option>
-               <option value="">Pangani Wings</option>
-               <option value="">Ngong Heights</option>
-               <option value="">Imara Daima area</option>
-               <option value="">Westlands Greens</option>
-               <option value="">Eastleigh Heights</option>
-               <option value="">Kasarani Garden city</option>
+               <option value="">Select Your Location</option>
+               <option value="Embakasi">Embakasi Courts</option>
+               <option value="Pangani">Pangani Wings</option>
+               <option value="Ngong">Ngong Heights</option>
+               <option value="Imara">Imara Daima area</option>
+               <option value="Westlands">Westlands Greens</option>
+               <option value="Eastleigh">Eastleigh Heights</option>
+               <option value="Kasarani">Kasarani Garden city</option>
              </select>
               </div>
               <div class="col-sm-6">
                 <label for="name" class="pb-2">Choose accomodation with monthly prices.</label><br>
                 <select name="" id="accomodate">
                   <option value="">Select Room type</option>
-                 <option value="room">Single Room--@ sh 5000 ($50) plus sh 5000 ($50) Deposit</option>
-                 <option value="room">Bed Sitter Room--@ sh 7500 ($75) plus sh 7500 ($75) Deposit</option>
-                 <option value="room">1 Bed Room--@ sh 12000 ($120) plus sh 10000 ($100) Deposit</option>
-                 <option value="room">2 Bed Room--@ sh 15000 ($150) plus sh 10000 ($100) Deposit</option>
+                 <option value="10000">Single Room--@ sh 5000 ($50) plus sh 5000 ($50) Deposit</option>
+                 <option value="15000">Bed Sitter Room--@ sh 7500 ($75) plus sh 7500 ($75) Deposit</option>
+                 <option value="22000">1 Bed Room--@ sh 12000 ($120) plus sh 10000 ($100) Deposit</option>
+                 <option value="25000">2 Bed Room--@ sh 15000 ($150) plus sh 10000 ($100) Deposit</option>
                 </select>
               </div>
             </div>
@@ -131,13 +149,31 @@
             </div>
              
             <div class="col-sm-12 text-center pb-5 pt-4">
-              <button type="submit" id="">Proceed</button>
+              <button type="submit" id="proceed">Proceed</button>
             </div>
            </form>
          </div>
        </div>
+       <div class="row" id="sumtable">
+         <div class="col-sm-12" id="summary">
+          <h4>Your Summary is as follows:</h4>
+          <p id="nm">NAME: </p>
+          <p>ID/PSSPT: <span id="idps"></span></p>
+          <p>PHONE NUMBER: <span id="phn"></span></p>
+          <p>EMERGENCY CONTACTS: <span id="emcont"></span></p>
+          <p>LOCATION: <span id="locat"></span></p>
+          <p>ROOM TYPE: <span id="room"></span></p>
+          <p>PERIOD OF STAY: <span id="perd"></span></p>
+          <p>FROM THIS DATE: <span id="dateprd"></span></p>
+         </div>
+       </div>
      </div>
 
+     <div class="container-fluid text-white text-center" id="footer">
+       <div class="col-sm-12">
+         <h5>hostMe || &copy; 2022 </h5>
+       </div>
+     </div>
 
 <!-- book  ends-->
 
@@ -147,8 +183,9 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/location.js"></script>
   </body>
 </html>
