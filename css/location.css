@@ -13,9 +13,9 @@
 
 }
 
-.host{
+.host, .head a{
     font-family: Rancho;
-    font-size: 36px;
+    font-size: 40px;
     color: white;
     justify-self: center;
     line-height: 0.8rem;
@@ -65,7 +65,7 @@ input, select{
     background-color: #333333;
     color: white;
 }
-#proceed, #back, #backtobook, #proceedtobook{
+#proceed, #back, #backtobook, #proceedtobook, #confirm1, #confirm2, #checkout, #checkout1{
     padding: 9px;
     width: 150px;
     border-radius: 10px;
@@ -86,9 +86,11 @@ input, select{
     color: #B21E89;
     font-size: 20px;
 }
-/* #payment{
-    display: flex;
-    flex-direction: row;
+.pay, .thank, .thank2{
+    display: none;
+}
+/* .thank{
+    color: #B21E89;
 } */
 
 #footer{
