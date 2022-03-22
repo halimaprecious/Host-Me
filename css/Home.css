@@ -41,8 +41,12 @@ button:hover {
 .introtext {
   font-family: "Josefin Sans";
 }
-.test{
-    background-image: url("images/mountains.png");
+.testimonial{
+    background-image: url("/images/mountains.png");
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+    color: white;
 }
 a:link,
 a:visited {
@@ -144,7 +148,6 @@ p {
 .footer-dark .copyright {
   text-align: center;
   padding-top: 24px;
-  opacity: 0.3;
   font-size: 13px;
   margin-bottom: 0;
 }
