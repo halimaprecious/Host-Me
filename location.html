@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>location part</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/location.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container-fluid">
+        <div class="row head fixed-top">
+          <div class="col-md-12 d-flex justify-content-around pt-4">
+            <img src="./images/logo.jpeg" alt="logo" height="50px" width="70px">
+            <a class="pt-2" href="#book">Book Now</a>
+            <a class="pt-2" href="landing.html">Home</a>
+            <a class="pt-2" href="contacts.html">Contact Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Our branches start-->
+      <div class="container pb-5 houses">
+        <h4 class="text-center mt-5 pb-4">Our Branches</h4>
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="./images/imara.jpeg" alt="Ngong" height="300px" width="350px">
+            <h5 class="pt-4 pb-3 text-center">Ngong Heights</h5>
+          </div>
+          <div class="col-sm-4">
+            <img src="./images/embakasi.jpeg" alt="embakasi" height="300px" width="350px">
+            <h5 class="pt-4 pb-3 text-center">Embakasi Courts</h5>
+          </div>
+          <div class="col-sm-4">
+            <img src="./images/pangani.jpeg" alt="pangani" height="300px" width="350px">
+            <h5 class="pt-4 pb-3 text-center">Pangani wings</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="./images/victoria.jpeg" alt="Ngong" height="300px" width="350px">
+            <h5 class="pt-4 text-center">Imara Daima</h5>
+          </div>
+          <div class="col-sm-4">
+            <img src="./images/ngong.jpeg" alt="embakasi" height="300px" width="350px">
+            <h5 class="pt-4 text-center">Eastleigh area </h5>
+          </div>
+          <div class="col-sm-4">
+            <img src="./images/east.jpeg" alt="pangani" height="300px" width="350px">
+            <h5 class="pt-4 text-center">Westlands Greens</h5>
+          </div>
+        </div>
+
+        <div class="row pt-5 mb-5" id="more">
+          <div class="col-sm-12 text-white more text-center">
+            <h4 class="pt-2 text-center text-white"><a href=""><i class="fa-solid fa-arrow-right-long text-white"></i> &nbsp;&nbsp; <strong class="text-white">Check for more locations Here</strong></a></h4>
+          </div>
+        </div>
+      </div>
+
+<!-- Our branches end-->
+
+
+<!-- book  starts-->
+     .<div class="container text-center mt-3 mb-4" id="book">
+       <h4 class="mb-2 text-center pt-5">Book your Preffered Hostel Here.</h4>
+       <h5 class="pb-3 text-center pt-3">Check the booking Guidelines <a href="">Here</a> first!</h5>
+       <div class="row">
+         <div class="col-sm-12">
+           <form action="">
+            <div class="row pb-3">
+              <div class="col-md-6">
+                <label for="name" class="pb-2">Your Full Name</label><br>
+                <input type="text" name="" id="name" placeholder="Your name...">
+              </div>
+              <div class="col-md-6">
+                <label for="idno/psspt" class="pb-2">Your ID / PASSPORT number</label><br>
+                <input type="text" name="" id="idno" placeholder="Your ID / PSSPT...">
+              </div>
+            </div> 
+
+            <div class="row pt-3">
+              <div class="col-sm-6">
+                <label for="phone1" class="pb-2">Phone Number.</label><br>
+                  <input type="number" id="phone1" placeholder="Your Phone number...">
+              </div>
+              <div class="col-sm-6">
+                <label for="emergency" class="pb-2">Emergency Contacts</label><br>
+                <input type="number" id="phone2" placeholder="Emergency Phone number...">
+              </div>
+            </div>
+
+            <div class="row pt-3">
+              <div class="col-sm-6">
+                <label for="loc" class="pb-2">Choose your Location from the available options</label><br>
+             <select name="" id="location">
+               <option value="room">Select Your Location</option>
+               <option value="">Embakasi Courts</option>
+               <option value="">Pangani Wings</option>
+               <option value="">Ngong Heights</option>
+               <option value="">Imara Daima area</option>
+               <option value="">Westlands Greens</option>
+               <option value="">Eastleigh Heights</option>
+               <option value="">Kasarani Garden city</option>
+             </select>
+              </div>
+              <div class="col-sm-6">
+                <label for="name" class="pb-2">Choose accomodation with monthly prices.</label><br>
+                <select name="" id="accomodate">
+                  <option value="">Select Room type</option>
+                 <option value="room">Single Room--@ sh 5000 ($50) plus sh 5000 ($50) Deposit</option>
+                 <option value="room">Bed Sitter Room--@ sh 7500 ($75) plus sh 7500 ($75) Deposit</option>
+                 <option value="room">1 Bed Room--@ sh 12000 ($120) plus sh 10000 ($100) Deposit</option>
+                 <option value="room">2 Bed Room--@ sh 15000 ($150) plus sh 10000 ($100) Deposit</option>
+                </select>
+              </div>
+            </div>
+            <div class="row pt-3">
+              <div class="col-sm-6">
+                <label for="period" class="pb-2">The period of time you will stay, minimum 1 month.</label><br>
+                  <input type="number" id="period" placeholder="number of months to stay...">
+              </div>
+              <div class="col-sm-6">
+                <label for="period" class="pb-2">From Date:</label><br>
+                <input type="date" id="dateperiod" placeholder="Frrom this date">
+              </div>
+            </div>
+             
+            <div class="col-sm-12 text-center pb-5 pt-4">
+              <button type="submit" id="">Proceed</button>
+            </div>
+           </form>
+         </div>
+       </div>
+     </div>
+
+
+<!-- book  ends-->
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
