@@ -6,9 +6,9 @@
 .head{
     background-color: #B21E89;
     height: 15vh;
-    position: fixed;
-    background-attachment: scroll;
-    z-index: 2;
+    /* position: fixed; */
+    background-attachment: fixed;
+    /* z-index: 2; */
 
 }
 .head img{
@@ -19,13 +19,29 @@
     font-size: 25px;
 }
 .houses{
-    height: 80vh;
+    height: auto;
     padding-top: 100px;
-    z-index: -100;
+    /* z-index: -100; */
 }
 .more{
-    margin-top: 460px;
+    /* margin-top: 460px; */
     background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+#more{
+    width: 800px;
+    margin-left: 180px;
+}
+input, select{
+    width: 300px;
+    padding: 5px;
+    color: black;
+    border-radius: 12px;
+}
+#book{
+    background-color: #B21E89;
+    color: black;
 }
 
 
