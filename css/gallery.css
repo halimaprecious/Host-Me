@@ -1,21 +1,28 @@
 body{
     background-color: #333333;
 }
-#logo{
-    height: 15vh;
-    width: 30vh;
-}
+#logo h4{
+    font-family: Rancho;
+    font-size: 50px;
+    color: #DD0382;
+    }
 #gallery h4{
     border: 2px solid #E75480;
     width: 15%;
     height: 45px;
     text-align: center;
     justify-content: center;
-    margin-left: 40%;
+    margin-left: 43%;
     color: whitesmoke;
     background-color: #E75480;
     font-family: 'Sofia';
     font-size: xx-large;
    
+}
+.card-img-top{
+    height: 50vh;
+}
+.host{
+    padding: 3cm;
 }
 
