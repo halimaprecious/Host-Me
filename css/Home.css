@@ -7,6 +7,7 @@ padding: 0;
     display: flex;
     justify-content: space-between;
     padding: 1.5rem;
+    
  
 }
 .hostMe{
@@ -17,7 +18,7 @@ padding: 0;
 }
 a {
     text-decoration: none;
-    color: #DD0382;
+    color: black;
     font-family: Libre Franklin;
     font-size: 16px;
 }
