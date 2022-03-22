@@ -5,16 +5,17 @@ body{
     height: 15vh;
     width: 30vh;
 }
-.col h4{
+#gallery h4{
     border: 2px solid #E75480;
     width: 15%;
-    height: 40px;
+    height: 45px;
     text-align: center;
     justify-content: center;
     margin-left: 40%;
     color: whitesmoke;
     background-color: #E75480;
     font-family: 'Sofia';
+    font-size: xx-large;
    
 }
 
