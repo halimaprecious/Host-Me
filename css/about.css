@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Poppins:ital,wght@0,200;0,300;1,600&display=swap');
 *{
     background-color: #333333;
     --main-color:#E75480;
@@ -26,7 +27,7 @@
 .team{
     margin-top: 100px;
     margin-left: 30px;
-    margin-right: 30px;
+    margin-right: px;
 }
 
 h2{
