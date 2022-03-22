@@ -11,9 +11,24 @@
 }
 .image{
     width: 1000px;
-    height: 500px;
-    margin-left: 40px;
-    margin-right: 50px;
+    height: 400px;
+    margin-left: 90px;
+    margin-right: 20px;
     display: flexbox;
+}
+.about-section{
+    color: azure;
+    text-align: center;
+    margin-bottom: 20px;  
+    margin-left: 50px;  
+    margin-right: 50px;
+}
+
+.team{
+    margin-top: 100px;
+}
+
+h2{
+    color: white;
 }
 
