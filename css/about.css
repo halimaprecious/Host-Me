@@ -3,3 +3,22 @@
     --main-color:#E75480;
     --border:.2rem solid #FFB6C1;
 }
+
+.logo{
+    width: 100px;
+    height: 180px;
+}
+
+.image{
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.about-section{
+    /* background-color: #E75480; */
+    margin-top: 50px;
+    margin-left: 50%;
+    margin-bottom: 50px;
+    text-align: center;  
+    color: azure;
+}
