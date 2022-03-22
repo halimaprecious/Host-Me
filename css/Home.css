@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+body{
+margin: 0;
+padding: 0;
+}
 .menu{
     display: flex;
     justify-content: space-between;
     padding: 1.5rem;
+ 
 }
 .hostMe{
     font-family: Rancho;
     font-size: 36px;
     color: #DD0382;
+    justify-self: center;
 }
 a {
     text-decoration: none;
+    color: #DD0382;
+    font-family: Libre Franklin;
+    font-size: 16px;
 }
