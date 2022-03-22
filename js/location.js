@@ -24,13 +24,8 @@ $(document).ready(function(){
     })
 
     //proceed button
-    $("#proceed").click(function(event){
-        event.PreventDefault();
-
-        // $("#sumtable").show()
-        $("#myForm").hide()
+    $("#proceed").click(function(){
         
-
         let pname = $("input#name").val();
         let pidno = $("input#idno").val();
         let phone1 = $("input#phone1").val();
@@ -40,18 +35,44 @@ $(document).ready(function(){
         let pperiod = $("input#period").val();
         let pdate = $("input#dateperiod").val();
 
-        var newTenant = new Data(pname,pidno,phone1,phone2,plocation,paccomodation,pperiod,pdate);
+        // var newTenant = new Data(pname,pidno,phone1,phone2,plocation,paccomodation,pperiod,pdate);
+        $("#phone1").attr("minlength", "10");
+        $("#phone2").attr("minlength", "10");
 
-        $("#nm").append(pname);
-        // $("#idps").append(newTenant.id);
-        // $("#phn").append(newTenant.phone1);
-        // $("#emcont").append(newTenant.phone2);
-        // $("#locat").append(newTenan.location);
-        // $("#room").append(newTenant.accomodation);
-        // $("#perd").append(newTenant.period);
-        // $("#dateprd").append(newTenant.dateperiod);
+         if($("input#name").val()==""||$("input#idno").val()==""||$("input#phone1").val()==""||$("input#phone2").val()==""||
+         $("#location option:selected").val()==""||$("#accomodate option:selected").val()==""||
+         $("input#period").val()==""||$("input#dateperiod").val()==""){
+            alert("Please fill all the required fields")
+       
+        }
         
-    })
+        else {
+        $("#nm").append(pname);
+            $("#idps").append(pidno);
+            $("#phn").append(phone1);
+            $("#emcont").append(phone2);
+            $("#locat").append(plocation);
+            $("#room").append(paccomodation);
+            $("#perd").append(pperiod);
+            $("#dateprd").append(pdate);
+            $("#sumtable").show()
+            $("#myForm").hide()
+        }
+        // event.PreventDefault();
+        
+    });
+    //back to booking
+    $("#backtobook").click(function(){
+        $("#myForm").show();
+        $('#myForm')[0].reset(); 
+        $("#sumtable").hide();
+
+    });
+    //proceed to book
+    $("#proceedtobook").click(function(){
+        $("#sumtable").hide();
+
+    });
 
 
 })

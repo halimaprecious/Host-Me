@@ -36,7 +36,7 @@
 }
 .more{
     /* margin-top: 460px; */
-    background-color: black;
+    background-color: #333333;
     color: white;
     border-radius: 20px;
 }
@@ -62,12 +62,12 @@ input, select{
     border-radius: 12px;
 }
 #book{
-    background-color: #B21E89;
-    color: black;
+    background-color: #333333;
+    color: white;
 }
-#proceed, #back{
+#proceed, #back, #backtobook, #proceedtobook{
     padding: 9px;
-    width: auto;
+    width: 150px;
     border-radius: 10px;
     border: 2px solid white;
     color: #B21E89;
@@ -82,9 +82,17 @@ input, select{
 #sumtable{
     display: none;
 }
+#summary span{
+    color: #B21E89;
+    font-size: 20px;
+}
+/* #payment{
+    display: flex;
+    flex-direction: row;
+} */
 
 #footer{
-    background-color: black;
+    background-color: #333333;
     height: 60px;
     padding-top: 25px;
 }
