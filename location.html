@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>location part</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/location.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container-fluid">
+        <div class="row head fixed-top">
+          <div class="col-md-12 d-flex justify-content-around pt-4">
+            <p class="pt-3 host">hostMe</p>
+            <a class="pt-3" href="#book">Book Now</a>
+            <a class="pt-3" href="landing.html">Home</a>
+            <a class="pt-3" href="contacts.html">Contact Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Our branches start-->
+      <div class="container pb-5 houses">
+        <h4 class="text-center mt-5 pb-4">Our Branches</h4>
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="./images/imara.jpeg" alt="Ngong" height="300px" width="350px">
+            <h5 class="pt-4 pb-3 text-center">Ngong Heights</h5>
+          </div>
+          <div class="col-sm-4">
+            <img src="./images/embakasi.jpeg" alt="embakasi" height="300px" width="350px">
+            <h5 class="pt-4 pb-3 text-center">Embakasi Courts</h5>
+          </div>
+          <div class="col-sm-4">
+            <img src="./images/pangani.jpeg" alt="pangani" height="300px" width="350px">
+            <h5 class="pt-4 pb-3 text-center">Pangani wings</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="./images/victoria.jpeg" alt="Ngong" height="300px" width="350px">
+            <h5 class="pt-4 text-center">Imara Daima</h5>
+          </div>
+          <div class="col-sm-4">
+            <img src="./images/ngong.jpeg" alt="embakasi" height="300px" width="350px">
+            <h5 class="pt-4 text-center">Eastleigh area </h5>
+          </div>
+          <div class="col-sm-4">
+            <img src="./images/east.jpeg" alt="pangani" height="300px" width="350px">
+            <h5 class="pt-4 text-center">Westlands Greens</h5>
+          </div>
+        </div>
+
+        <div class="row pt-5 mb-3" id="more">
+          <div class="col-sm-12 text-white more text-center">
+            <h4 class="pt-2 text-center text-white"><i class="fa-solid fa-arrow-right-long text-white"></i> &nbsp;&nbsp; <strong class="text-white">Check for more locations Here</strong></h4>
+          </div>
+        </div>
+      </div>
+
+<!-- Our branches end-->
+
+<!-- book  starts-->
+     .<div class="container" id="book">
+       <h4 class="mb-2 text-center pt-5">Book your Preffered Hostel Here.</h4>
+       <h5 class="pb-3 text-center pt-3">Check the booking Guidelines <span id="guide1">Here</span> first!</h5>
+
+       <div id="guide" class="pb-5">
+        <p>Currently we do not have lodges but our rooms can accomodate you for 
+          a minimum period of 1 month.
+        </p>
+        <p>Before making any payment, go through the following step by step.</p>
+        <ol>
+          <li>Identify the room of your choice from the <a href="gallery.html">gallery section</a> </li>
+          <li>Enter your correct Details</li>
+          <li>For the first month you will be required to pay the 
+            the Deposit and the rent for that month.
+          </li>
+          <li>Select your location well  and your preferred room.</li>
+          <li>Lastly print your details and come with it during the reporting date.</li>
+          <li> For further enquiries contact our Head Office on +254700003332</li>
+        </ol>
+        <button id="back">Back to booking</button>
+       </div>
+       <div class="row text-center">
+         <div class="col-sm-12">
+           <form action="" id="myForm">
+            <div class="row pb-3">
+              <div class="col-md-6">
+                <label for="name" class="pb-2">Your Full Name</label><br>
+                <input type="text" name="" id="name" placeholder="Your name..." value="">
+              </div>
+              <div class="col-md-6">
+                <label for="idno/psspt" class="pb-2">Your ID / PASSPORT number</label><br>
+                <input type="text" name="" id="idno" placeholder="Your ID / PSSPT..." value="">
+              </div>
+            </div> 
+
+            <div class="row pt-3">
+              <div class="col-sm-6">
+                <label for="phone1" class="pb-2">Phone Number.</label><br>
+                  <input type="number" id="phone1" placeholder="Your Phone number...">
+              </div>
+              <div class="col-sm-6">
+                <label for="emergency" class="pb-2">Emergency Contacts</label><br>
+                <input type="number" id="phone2" placeholder="Emergency Phone number...">
+              </div>
+            </div>
+
+            <div class="row pt-3">
+              <div class="col-sm-6">
+                <label for="loc" class="pb-2">Choose your Location from the available options</label><br>
+             <select name="" id="location">
+               <option value="">Select Your Location</option>
+               <option value="Embakasi">Embakasi Courts</option>
+               <option value="Pangani">Pangani Wings</option>
+               <option value="Ngong">Ngong Heights</option>
+               <option value="Imara">Imara Daima area</option>
+               <option value="Westlands">Westlands Greens</option>
+               <option value="Eastleigh">Eastleigh Heights</option>
+               <option value="Kasarani">Kasarani Garden city</option>
+             </select>
+              </div>
+              <div class="col-sm-6">
+                <label for="name" class="pb-2">Choose accomodation with monthly prices.</label><br>
+                <select name="" id="accomodate">
+                  <option value="">Select Room type</option>
+                 <option value="10000">Single Room--@ sh 5000 ($50) plus sh 5000 ($50) Deposit</option>
+                 <option value="15000">Bed Sitter Room--@ sh 7500 ($75) plus sh 7500 ($75) Deposit</option>
+                 <option value="22000">1 Bed Room--@ sh 12000 ($120) plus sh 10000 ($100) Deposit</option>
+                 <option value="25000">2 Bed Room--@ sh 15000 ($150) plus sh 10000 ($100) Deposit</option>
+                </select>
+              </div>
+            </div>
+            <div class="row pt-3">
+              <div class="col-sm-6">
+                <label for="period" class="pb-2">The period of time you will stay, minimum 1 month.</label><br>
+                  <input type="number" id="period" placeholder="number of months to stay...">
+              </div>
+              <div class="col-sm-6">
+                <label for="period" class="pb-2">From Date:</label><br>
+                <input type="date" id="dateperiod" placeholder="Frrom this date">
+              </div>
+            </div>
+             
+            <div class="col-sm-12 text-center pb-5 pt-4">
+              <button type="submit" id="proceed">Proceed</button>
+            </div>
+           </form>
+         </div>
+       </div>
+       <div class="row" id="sumtable">
+         <div class="col-sm-12 pb-4" id="summary">
+          <h4>Your Summary is as follows:</h4>
+          <p>NAME: <span id="nm"></span></p>
+          <p>ID/PSSPT: <span id="idps"></span></p>
+          <p>PHONE NUMBER: <span id="phn"></span></p>
+          <p>EMERGENCY CONTACTS: <span id="emcont"></span></p>
+          <p>LOCATION: <span id="locat"></span></p>
+          <p>ROOM TYPE: <span id="room"></span></p>
+          <p>PERIOD OF STAY: <span id="perd"></span></p>
+          <p>FROM THIS DATE: <span id="dateprd"></span></p>
+
+          <button id="backtobook">back</button>&nbsp;&nbsp;
+          <button id="proceedtobook">proceed</button>
+         </div>
+       </div>
+
+       <div class="container pay">
+        <h4 class="text-center pt-2 pb-2">You can Make your payments using the following methods:</h4>
+        <div class="row" id="payment">
+          <div class="col-sm-4 mx-5 pt-3">
+          <img src="./images/mpesa.png" alt="" height="90px" width="200px">
+          <ul type="none" class="pt-3 pb-4">
+            <li>1. Go to your Mpesa app.</li>
+            <li>2. Go Lipa na M-Pesa.</li>
+            <li>3. Navigate to pay Bill.</li>
+            <li>4. Enter  552800 as a Business number.</li>
+            <li>5. Use your ID/Passport as an account number.</li>
+            <li>6. Enter the rent amount and the pin number then submit <br>
+              and save the message.</li>
+          </ul>
+          <button id="confirm1">Confirm</button>
+         </div>
+         <div class="col-sm-5 mx-5 pt-3">
+          <img class="bg-white" src="./images/PayPal-Logo.png" alt="" height="90px" width="200px">
+          <ul type="none" class="pt-3 pb-4">
+          <li>1. Log into your PayPal account and click on “Pay or send money.”</li> 
+          <li>2. Choose that you're paying for services.</li>
+          <li>3. Enter the email hostme@gmail.com</li>
+          <li>4. Click “Next” then enter the amount.</li>
+          <li>5. Confirm the amount and currency then click “Continue.”</li>
+          <li>6. Choose how you wish to pay—through your PayPal balance, a credit or debit card, or a linked bank account.</li>
+          <li>7. Confirm the payment by clicking the button. 
+            <br> PayPal will send you a receipt via email showing that payment has been processed.</li>
+          </ul>
+          <button id="confirm2">Confirm</button>
+         </div>
+         </div>
+       </div>
+       
+       <div class="container thank">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h3 id="thank1"></h3>
+            <button id="checkout1">checkout</button>
+          </div>
+        </div>
+       </div>
+       <div class="container thank2">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h3 id="thank2"></h3>
+            <button id="checkout">checkout</button>
+          </div>
+        </div>
+       </div>
+     </div>
+     </div>
+
+     <div class="container-fluid text-white text-center" id="footer">
+       <div class="col-sm-12">
+         <h5>hostMe || &copy; 2022 </h5>
+       </div>
+     </div>
+
+<!-- book  ends-->
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/location.js"></script>
+  </body>
+</html>
