@@ -42,7 +42,7 @@ button:hover {
   font-family: "Josefin Sans";
 }
 .testimonial{
-    background-image: url("/images/mountains.png");
+    background-image: url("images/mountains.png");
     background-size: cover;
     background-position: center;
     padding: 200px;
