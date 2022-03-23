@@ -103,6 +103,26 @@ input, select{
 }
 
 
+/* //media queries */
+
+@media only screen and (max-width: 400px){
+    #more{
+        margin-left: 20px;
+        width: 80%;
+    }
+    #book{
+        width: 90%;
+    }
+    #summary{
+        margin-left: 10px;
+    }
+}
+
+
+
+
+
+
 
 
 
