@@ -102,10 +102,21 @@ p {
   font-weight: bolder;
   margin-bottom: 5px;
 }
+.p{
+  text-align: center;
+  }
+  .h{
+    font-weight: bold;
+  }
 
-.image{
-  margin-left: 230px;
-  height: 50%;
+.hostme{
+    font-family: Rancho;
+    font-size: 36px;
+    color: #DD0382;
+    justify-self: center;
+    line-height: 0.8rem;
+}
+
 }
 
 @media screen and (max-width:820px) {
