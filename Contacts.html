@@ -1,63 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="icon" href="./IMG-20220322-WA0002.jpg" type="image/png">
     <title>Contact US</title>
 
-<!--Bootstrap css-->
+    <!--Bootstrap css-->
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="./css/fontiawesome.css">
-<link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.css">
-<link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap-grid.css">
-<link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap-grid.css.map">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 
-<!--main css-->
-<link rel="stylesheet" href="./css/responsive.css">
-<link href="./css/contacts.css" rel="stylesheet" type="text/css">
-<script src="https://code.jquery.com/jquery-3.6.0.js"
-integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="./css/fontiawesome.css">
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap-grid.css.map">
+
+    <!--main css-->
+    <link href="./css/contacts.css" rel="stylesheet" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
-     <!--============ HEADER MENU AREA =================-->
-     <header class="header_area">
-        <div class="main_menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container box_1620">
+    <div class="container menu">
+        <a class="about" href="#">About Us</a>
+        <a class="contacts" href="#">Contact</a>
+        <span class="hostMe">hostMe</span>
+        <a class="locations" href="#">Locations</a>
+        <a class="gallery" href="#">Gallery</a>
+        <style>
+            a:hover {
+                color: #DD0382;
+            }
+        </style>
+    </div>
 
-                    <!--Brand and Toggle get grouped for better mobile display-->
-                 
-                    <a class="navbar-brand logo_h" href="index.html"><img src="#" alt=""> </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarsupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
 
-                    <!--Collect the nav links, forms and other content for toggling-->
-                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav menu_nav ml-auto">
 
-                            <li class="nav-item active"><a class="nav-link" href="index.html"> Home </a></li>
-                            <li class="nav-item"><a class="nav-link" href="#contactme"> Book Now </a></li>
-                            <li class="nav-item"><a class="nav-link" href="#contactme"> Location </a></li>
-                            <li class="nav-item"><a class="nav-link" href="#contactme"> Gallery </a></li>
-                            <li class="nav-item"><a class="nav-link" href="#contactme"> About Us </a></li>
-                            <li class="nav-item"><a class="nav-link" href="#contactme"> Contact Us </a></li>
-                            <li class="nav-item submenu dropdown"></li>
-                        </ul>
+    <!--CONTACT Us -->
+    <!-- d-flex supports creating elements both horizontally (. flex-row) and vertically (. flex-column). Col only support horizontally.-->
+    <!--Gutters are the padding between your columns, used to responsively space and align content in the Bootstrap grid system. -->
+    <!--Box is a modern multipurpose Template that highlights your content and helps it stand out.-->
+    <div class="container1">
+        <div class="row justify-content-center">
+            <div class="col-lg-11">
+                <div class="wrapper">
+                    <div class="row no-gutters justify-content-between">
+                        <div class="col-lg-6 d-flex align-items-stretch">
+                            <div class="info-wrap w-100 p-5">
+                                <h3 class="mb-4">Contact us</h3>
+                                <div class="dbox w-100 d-flex align-items-start">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-map-marker"></span>
+                                    </div>
+                                    <div class="text pl-4">
+                                        <p><span> Address: </span> 00100, Nairobi Kenya</p>
+                                    </div>
+                                </div>
+                                <div class="dbox w-100 d-flex align-items-start">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-phone"></span>
+                                    </div>
+                                    <div class="text pl-4">
+                                        <p><span> Phone: </span> <a href="tel://1234567920">+ 254 72 3525 9228</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="dbox w-100 d-flex align-items-start">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-paper-plane"></span>
+                                    </div>
+                                    <div class="text pl-4">
+                                        <p><span> Email: </span> <a
+                                                href="mailto:info@yoursite.com"> info@HostMe.com </a></p>
+                                    </div>
+                                </div>
+                                <div class="dbox w-100 d-flex align-items-start">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-globe"></span>
+                                    </div>
+                                    <div class="text pl-4">
+                                        <p><span> Website: </span> <a href="#"> hostme.com</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="contact-wrap w-100 p-md-5 p-4">
+                                <h3 class="mb-4">Get in touch</h3>
+                                <div id="form-message-warning" class="mb-4"></div>
+                                <div id="form-message-success" class="mb-4">
+                                    Your message was sent, thank you!
+                                </div>
+                                <form method="POST" id="contactForm" name="contactForm" action="https://login.mailchimp.com/signup/">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="name" id="name"
+                                                    placeholder="Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" name="email" id="email"
+                                                    placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="subject" id="subject"
+                                                    placeholder="Subject">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <textarea name="message" class="form-control" id="message" cols="30"
+                                                    rows="5" placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input type="submit" value="Send Message" class="btn btn-primary">
+                                                <div class="submitting"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </nav>
+            </div>
         </div>
+    </div>
+
+<!-- FOOTER Section -->
+<div class=" container-fluid footer-dark">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Web design</a>
+                        </li>
+                        <li>
+                            <a href="#">Development</a>
+                        </li>
+                        <li>
+                            <a href="#">Hosting</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Company</a>
+                        </li>
+                        <li>
+                            <a href="#">Team</a>
+                        </li>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <span class="hostMe">hostMe</span>
+
+                    <p>We enable students to experience new places and meet new people in a fun, memorable and safe way; empowered by our know-how curated by a passionate community of like-minded individuals and hosts.</p>
+                    <p> Open Monday - Friday : 08:00 - 19 : 00</p>
+                    <p> Open Saturdays : 09:00 - 17:00</p>
+                </div>
+                <div class="col item social">
+                    <a href="#">
+                        <i class="icon ion-social-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="icon ion-social-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="icon ion-social-snapchat"></i>
+                    </a>
+                    <a href="#">
+                        <i class="icon ion-social-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="copyright"><span class="hostMe">hostMe</span> © 2022</p>
+        </div>
+    </footer>
+</div>
 </body>
+
 </html>
