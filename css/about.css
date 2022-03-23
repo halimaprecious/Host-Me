@@ -3,6 +3,25 @@
     /* background-color: #333333;
     --main-color:#E75480;
     --border:.2rem solid #FFB6C1; */
+ }
+ .menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+.hostMe {
+  font-family: Rancho;
+  font-size: 36px;
+  color: #dd0382;
+  justify-self: center;
+  line-height: 0.8rem;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+  font-family: Libre Franklin;
+  font-size: 16px;
 }
 
 body {
@@ -115,8 +134,6 @@ p {
     color: #DD0382;
     justify-self: center;
     line-height: 0.8rem;
-}
-
 }
 
 @media screen and (max-width:820px) {
