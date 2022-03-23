@@ -15,7 +15,7 @@ $(document).ready(function(){
     //guidelines
     $("#guide1").click(function(){
         $("#myForm").hide();
-        // $("#guide").toggle(1000);
+        $("#guide").toggle(1000);
     })
 
     // back to booking button
@@ -72,7 +72,7 @@ $(document).ready(function(){
     //proceed to book
     $("#proceedtobook").click(function(){
         $("#sumtable").hide();
-        $(".pay").slideDown();
+        $(".pay").slideDown(1500);
 
     });
         //proceed to confirm mpesa
