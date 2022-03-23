@@ -2,7 +2,8 @@
 # hostMe
 **Welcome to hostMe**. We enable students to experience new places and meet new people in a fun, memorable and safe way; empowered by our know-how curated by a passionate community of like-minded individuals and hosts.
 
-
+<p align="center"><img src="https://github.com/halimaprecious/Host-Me/blob/master/images/host%20me.png" height="300px" width = "70%"> </p>
+  
 
 
 
@@ -56,24 +57,5 @@ To fix a bug or enhance an existing module, follow these steps:
 
 
 ### License
+[MIT license](https://github.com/halimaprecious/Host-Me/edit/master/LICENSE)
 
-*MIT*
-Copyright (c) 2022 **hostMe**
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
