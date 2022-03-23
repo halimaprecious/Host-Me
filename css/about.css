@@ -237,31 +237,31 @@ p {
   }
 /* service styling */
 .lib{
-  background: url('/images/library.jpg') no-repeat center;
+  background: url('../images/library.jpg') no-repeat center;
   height: 15rem;
 }
 .hall1{
-  background: url('/images/social-hall-sub.jpg') no-repeat center;
+  background: url('../images/social-hall-sub.jpg') no-repeat center;
   height: 15rem;
   background-size: cover;
 }
 .net{
-  background: url('/images/wifi.jpg') no-repeat center;
+  background: url('../images/wifi.jpg') no-repeat center;
   height: 15rem;
   background-size: cover;
 }
 .transport{
-    background: url('/images/Transport.jpg');
+    background: url('../images/Transport.jpg');
     height: 15rem;
     background-size: cover;
 }
 .clean{
-  background: url('/images/cleaning-staff-26492.jpg');
+  background: url('../images/cleaning-staff-26492.jpg');
   height: 15rem;
   background-size: cover;
 }
 .pool{
-  background: url('/images/pool.jpg');
+  background: url('../images/pool.jpg');
   background-size: cover;
   height: 15rem;
 }
@@ -298,7 +298,7 @@ font-family: 'Libre Baskerville', serif;
 /* .services{
   margin-left: 160px;
   /* margin-right: 100px; */
-/* } */ */
+/* } */ 
 
 
 /* @media screen and (max-width:820px) {
