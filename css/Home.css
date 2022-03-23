@@ -10,12 +10,12 @@
   padding: 1.5rem;
 }
 .title {
-  font-family: Rancho;
+  font-family: 'Rancho';
   font-size: 36px;
   text-align: center;
 }
 .hostMe {
-  font-family: Rancho;
+  font-family: 'Rancho';
   font-size: 36px;
   color: #dd0382;
   justify-self: center;
