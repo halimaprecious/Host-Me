@@ -24,11 +24,14 @@
     color: white;
     font-size: 25px;
 }
-.houses{
+.houses, .houses1{
     height: auto;
     padding-top: 100px;
     /* z-index: -100; */
 }
+/* #house{
+    display: none;
+} */
 #guide{
     margin-left: 300px; 
     /* color: white; */

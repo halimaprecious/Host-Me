@@ -11,17 +11,24 @@ function Data(name, id, phone1, phone2, location,accomodation,period, dateperiod
 }
 
 $(document).ready(function(){
+
+
+    $("#more").click(function(){
+        $(".loc").hide()
+        $("#house").slideDown(2000)
+        
+    })
     //guidelines
     $("#guide1").click(function(){
         $("#myForm").hide();
-        $("#guide").slideDown(1000);
+        // $("#guide").toggle(1000);
     })
 
     // back to booking button
-    $("#back").click(function(){
-        $("#myForm").slideDown(1000);
-        $("#guide").hide();
-    })
+    // $("#back").click(function(){
+    //     $("#myForm").slideDown(1000);
+    //     $("#guide").hide();
+    // })
 
     //proceed button
     $("#proceed").click(function(){
