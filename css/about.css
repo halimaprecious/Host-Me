@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Poppins:ital,wght@0,200;0,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 *{
     background-color: #333333;
     --main-color:#E75480;
@@ -20,7 +20,7 @@
 .about-section{
     padding: 50px;
     text-align: center;
-    background-color: #E75480;
+    background-color: #333333;
     color: white;
 }
 
@@ -82,7 +82,7 @@ body {
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #E75480;
+    background-color: #333333;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -99,7 +99,7 @@ body {
     }
   }
   .btn{
-    background-color: #E75480;
+    background-color: #333333;
   }
 
   .next{
@@ -108,3 +108,11 @@ body {
 .foot{
     color: white;
 }
+
+/* .hostMe{
+  font-family: Rancho;
+  font-size: 36px;
+  color: #DD0382;
+  justify-self: center;
+  line-height: 0.8rem;
+} */
