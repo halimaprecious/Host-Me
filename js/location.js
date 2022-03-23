@@ -12,12 +12,6 @@ function Data(name, id, phone1, phone2, location,accomodation,period, dateperiod
 
 $(document).ready(function(){
 
-
-    $("#more").click(function(){
-        $(".loc").hide()
-        $("#house").slideDown(2000)
-        
-    })
     //guidelines
     $("#guide1").click(function(){
         $("#myForm").hide();
@@ -25,10 +19,10 @@ $(document).ready(function(){
     })
 
     // back to booking button
-    // $("#back").click(function(){
-    //     $("#myForm").slideDown(1000);
-    //     $("#guide").hide();
-    // })
+    $("#back").click(function(){
+        $("#myForm").slideDown(1000);
+        $("#guide").hide();
+    })
 
     //proceed button
     $("#proceed").click(function(){
@@ -138,4 +132,10 @@ $(document).ready(function(){
             $(".thank").hide();
             $(".thank2").hide();
         });
+
+        // $("#more").click(function(){
+        
+        //     window.location.href='new.html';
+        //     // $("#house").slideDown(2000)
+        // })
 });
