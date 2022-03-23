@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 :root{
     --bg:#333333;
-    --main-color:#E75480;
+    --main-color:#DD0382;;
     --border:.2rem solid #FFB6C1;
+    font-family: 'Rancho', cursive;
+    font-family: 'Libre Baskerville', serif;
 }
 *{
     padding: 0;
