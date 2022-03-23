@@ -52,7 +52,7 @@ a:link,
 a:visited {
   text-decoration: none;
   color: black;
-  font-family: Libre Franklin;
+  font-family: 'Libre Franklin';
   font-size: 16px;
 }
 
