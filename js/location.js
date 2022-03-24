@@ -15,13 +15,15 @@ $(document).ready(function(){
     //guidelines
     $("#guide1").click(function(){
         $("#myForm").hide();
-        $("#guide").toggle(1000);
+        $("#guide").show();
     })
 
     // back to booking button
     $("#back").click(function(){
         $("#myForm").slideDown(1000);
         $("#guide").hide();
+        // $("#myForm").trigger("reset")
+        // $('#myForm')[0].reset();
     })
 
     //proceed button
@@ -37,8 +39,8 @@ $(document).ready(function(){
         let pdate = $("input#dateperiod").val();
 
         // var newTenant = new Data(pname,pidno,phone1,phone2,plocation,paccomodation,pperiod,pdate);
-        $("#phone1").attr("minlength", "10");
-        $("#phone2").attr("minlength", "10");
+        // $("#phone1").attr("minlength", "10");
+        // $("#phone2").attr("minlength", "10");
 
          if($("input#name").val()==""||$("input#idno").val()==""||$("input#phone1").val()==""||$("input#phone2").val()==""||
          $("#location option:selected").val()==""||$("#accomodate option:selected").val()==""||
@@ -48,7 +50,7 @@ $(document).ready(function(){
         }
         
         else {
-        $("#nm").append(pname);
+            $("#nm").append(pname);
             $("#idps").append(pidno);
             $("#phn").append(phone1);
             $("#emcont").append(phone2);
@@ -67,6 +69,7 @@ $(document).ready(function(){
         $("#myForm").show();
         $('#myForm')[0].reset(); 
         $("#sumtable").hide();
+        $('#myForm')[0].reset();
 
     });
     //proceed to book
@@ -82,6 +85,8 @@ $(document).ready(function(){
             $("#sumtable").hide();
             $(".pay").hide();
             $(".thank").show();
+            // // $("#myForm").trigger("reset")
+            // $('#myForm')[0].reset();
 
             var pname = $("input#name").val();
             let pidno = $("input#idno").val();

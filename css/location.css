@@ -83,12 +83,18 @@ input, select{
     margin-left: 150px;
 }
 #sumtable{
+    height: 70vh;
+    background-color: black;
     display: none;
 }
 #summary span{
+    height: 50vh;
     color: #B21E89;
     font-size: 20px;
 }
+/* #thank1, #thank2{
+    background-color: black;
+} */
 .pay, .thank, .thank2{
     display: none;
 }
