@@ -4,9 +4,6 @@
 
 <p align="center"><img src="https://github.com/halimaprecious/Host-Me/blob/master/images/host%20me.png" height="300px" width = "70%"> </p>
   
-
-
-
 ## Prerequisites
 - Have Git installed.
 - Have a text editor installed e.g VS Code, Atom
@@ -40,6 +37,7 @@ Check out the available rooms.
 You'll notice a book button that, when clicked, will take you to a booking form.
 
 Fill out the form and submit it, then look at the payment options.
+## Check the live link (https://halimaprecious.github.io/Host-Me/)
 
 ## Development
 
