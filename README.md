@@ -15,7 +15,7 @@
 ### Setup/Installation Requirements
 -   Open your terminal (ctrl+alt+T).
 -   Initialize git on your terminal.
--   git clone <https://github.com/halimaprecious/Host-Me.git>.
+-   git clone `https://github.com/halimaprecious/Host-Me.git`.
 -   open the 'hostMe' folder.
 -   Open the file named index.html on your preferred browser.
 -   Decide the room you want.
@@ -37,7 +37,7 @@ Check out the available rooms.
 You'll notice a book button that, when clicked, will take you to a booking form.
 
 Fill out the form and submit it, then look at the payment options.
-## Check the live link (https://halimaprecious.github.io/Host-Me/)
+## Check the live link: https://halimaprecious.github.io/Host-Me/
 
 ## Development
 
